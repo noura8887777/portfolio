@@ -1,0 +1,43 @@
+/*
+Le reset.css:efface les styles de base du navigateur (marges, tailles, polices par défaut…)
+Le style.css:vient appliquer tes propres styles par-dessus
+*/
+
+/* Supprime les marges et les espacements par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Supprime les décorations et uniformise les polices */
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Supprime la décoration des liens */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Supprime les puces des listes */
+ul, ol {
+  list-style: none;
+}
+
+/* Uniformise les tailles d'images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Supprime les bordures sur les boutons et inputs */
+button, input {
+  border: none;
+  background: none;
+  font-family: inherit;
+}
