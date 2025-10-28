@@ -1,6 +1,6 @@
 /* ===== HEADER 1 ===== */
 .header1 {
-  background-color: #FFC8DD;
+  background-color: #154D71;
   width: 100%;
   height: 50px;
   display: flex;
@@ -11,7 +11,7 @@
 
 .header1 h3 {
   font-style: italic;
-  color: #5a189a;
+  color: #eff1f1;
   font-weight: bold;
 }
 
@@ -45,12 +45,12 @@
 
 .header2 .social-links a i {
   font-size: 30px;
-  color: #CDB4DB;
+  color: #154D71;
   transition: 0.3s ease;
 }
 
 .header2 .social-links a i:hover {
-  color: #A2D2FF;
+  color: #4FB7B3;
   transform: scale(1.2);
 }
 
@@ -58,7 +58,7 @@
 .navbar {
   width: 100%;
   height: 70px;
-  background-color: #CDB4DB;
+  background-color: #154D71;
 }
 
 .navbar ul {
@@ -77,13 +77,13 @@
 }
 
 .navbar ul li a:hover {
-  color: #A2D2FF;
-  border-bottom: solid 3px #A2D2FF;
+  color: #4FB7B3;
+  border-bottom: solid 3px #4FB7B3;
 }
 
 /* ===== HOME ===== */
 .home {
-  background-image: url(home.png);
+  background-image: url(home.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -132,7 +132,7 @@
 
 .projects h2 {
   font-size: 32px;
-  color: #7b2cbf;
+  color: #154D71;
   margin-bottom: 50px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -147,7 +147,7 @@
   transform: translateX(-50%);
   width: 120px;
   height: 4px;
-  background-color: #C77DFF;
+  background-color: #4FB7B3;
   border-radius: 2px;
 }
 
@@ -182,7 +182,7 @@
 }
 
 .project-card h3 {
-  color: #9c27b0;
+  color: #154D71;
   margin-bottom: 15px;
   font-size: 1.3em;
 }
@@ -198,7 +198,7 @@
 .btn-project {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #CDB4DB;
+  background-color: #154D71;
   color: white;
   border-radius: 30px;
   text-decoration: none;
@@ -207,9 +207,8 @@
 }
 
 .btn-project:hover {
-  background-color: #A2D2FF;
-  color: #5a189a;
-  box-shadow: 0 4px 12px rgba(162, 210, 255, 0.6);
+  background-color: #4FB7B3;
+  color: #e1e6e6;
 }
 
 /* Responsive */
@@ -236,7 +235,7 @@
 }
 
 .certificate h3 {
-    color: #d6b0ec;
+    color: #154D71;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -260,11 +259,11 @@
 
 .certificate .logos img:hover {
     transform: scale(1.15);
-    box-shadow: 0 4px 20px rgba(205, 180, 219, 0.7);
+   
 }
 
 .imgcomplet{
-  background: linear-gradient(to right,#e9dcf0,#edb7ee);
+  background: linear-gradient(to right,#9deac7,#03633b);
   width: 100%;
   min-height: 60px;
 }
@@ -277,7 +276,7 @@
 
 .contact h2 {
      font-size: 32px;
-    color: #7b2cbf;
+    color: #154D71;
     margin-bottom: 20px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -308,7 +307,7 @@
 
 .form-group label {
     display: block;
-    color: #CDB4DB;
+    color: #154D71;
     font-weight: bold;
     margin-bottom: 8px;
 }
@@ -333,7 +332,7 @@
 
 /* Bouton */
 .btn-submit {
-    background-color: #CDB4DB;
+    background-color: #4FB7B3;
     color: white;
     border: none;
     padding: 12px 25px;
@@ -364,7 +363,7 @@
 /* Titre de la section */
 .about h2 {
     font-size: 32px;
-    color: #7b2cbf;
+    color: #1E3A8A;
     margin-bottom: 20px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -381,7 +380,7 @@
     transform: translateX(-50%);
     width: 120px;
     height: 4px;
-    background-color: #C77DFF;
+    background-color: #4FB7B3;
     border-radius: 2px;
 }
 
@@ -420,7 +419,7 @@
 }
 .footer {
   width: 100%;
-  background: linear-gradient(135deg, #FFC8DD, #CDB4DB);
+  background: linear-gradient(135deg, #154D71, #4FB7B3);
   color: white;
   padding: 40px 20px 20px;
   text-align: center;
